@@ -1,0 +1,44 @@
+{
+  "name": "expo-ui-preview",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "type": "module",
+  "description": "Preview React Native UI components with Expo Router",
+  "author": "Jeroen",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "shiny-code/react-native"
+    ]
+  },
+  "bin": {
+    "preview": "./src/bin/cli.js"
+  },
+  "peerDependencies": {
+    "expo-router": "*",
+    "react-native": "*",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "chalk": "^5.3.0",
+    "eslint-config-shiny-code": "^1.2.1",
+    "yargs": "^17.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jeroen-G/preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jeroen-G/preview/issues"
+  },
+  "homepage": "https://github.com/Jeroen-G/preview",
+  "keywords": [
+    "preview",
+    "expo",
+    "react native"
+  ]
+}
