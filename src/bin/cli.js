@@ -5,7 +5,7 @@ import chalk from 'chalk';
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 
-const stubDir = 'node_modules/preview/src/stubs/sources';
+const stubDir = 'node_modules/preview/src/stubs/preview';
 const stubs = ['index.tsx', '_layout.tsx', '[component].tsx'];
 
 yargs(hideBin(process.argv))

@@ -5,11 +5,7 @@ import { Text, View, StyleSheet } from 'react-native';
 export function PreviewOverviewScreen() {
     function listFiles(): string[] {
         // @ts-ignore
-        const files = require.context(
-            process.env.EXPO_ROUTER_APP_ROOT + '/..',
-            true,
-            /\.preview.tsx$/
-        );
+        const files = require.context('./../../../', true, /\.preview.tsx$/);
         return files.keys().map((file: string) => file);
     }
 

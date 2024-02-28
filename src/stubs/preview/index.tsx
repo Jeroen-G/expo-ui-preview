@@ -1,3 +1,3 @@
-import { PreviewOverviewScreen } from 'preview';
+import { PreviewOverviewScreen } from 'expo-ui-preview';
 
 export default PreviewOverviewScreen;
