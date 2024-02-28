@@ -1,6 +1,6 @@
 {
   "name": "expo-ui-preview",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.ts",
   "type": "module",
   "description": "Preview React Native UI components with Expo Router",
