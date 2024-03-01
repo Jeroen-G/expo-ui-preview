@@ -14,11 +14,11 @@ Preview is a lightweight alternative to Storybook, which is focused on previewin
 ## Installation
 Using your favorite package manager:
 ```bash
-npm install jeroen-g/preview
+npm install expo-ui-preview
 
-yarn add jeroen-g/preview
+yarn add expo-ui-preview
 
-bun add jeroen-g/preview
+bun add expo-ui-preview
 ```
 
 Then to install (or to update) Preview's setup:
