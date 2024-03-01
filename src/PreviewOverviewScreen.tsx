@@ -56,5 +56,5 @@ const styles = StyleSheet.create({
     },
     listItem: {
         paddingLeft: 20,
-    }
+    },
 });
