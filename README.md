@@ -1,4 +1,4 @@
-# Preview
+# Expo UI Preview
 Lightweight setup to preview UI components with Expo Router.
 
 ## Requirements
