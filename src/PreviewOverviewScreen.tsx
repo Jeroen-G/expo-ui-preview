@@ -1,14 +1,9 @@
 import { Link } from 'expo-router';
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
+import {listFiles} from "./lib/listFiles";
 
 export function PreviewOverviewScreen() {
-    function listFiles(): string[] {
-        // @ts-ignore
-        const files = require.context('./../../../', true, /\.preview.tsx$/);
-        return files.keys().map((file: string) => file);
-    }
-
     const groupedFiles = new Map<string, { path: string; parent: string; name: string }[]>();
 
     listFiles().forEach(file => {
