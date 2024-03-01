@@ -34,7 +34,7 @@ export function PreviewOverviewScreen() {
                                 <Link
                                     href={`/preview/button?i=${index}`}
                                     key={index}
-                                    style={styles.indent1}>
+                                    style={[styles.listItem]}>
                                     {c.name}
                                 </Link>
                             );
@@ -50,10 +50,11 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
-    indent1: {
-        paddingLeft: 10,
-    },
     group: {
+        padding: 10,
         fontWeight: 'bold',
     },
+    listItem: {
+        paddingLeft: 20,
+    }
 });
