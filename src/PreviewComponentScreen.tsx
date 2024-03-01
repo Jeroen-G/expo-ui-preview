@@ -1,8 +1,9 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import {listFiles} from "./lib/listFiles";
-import {compile} from "./lib/compile";
+
+import { compile } from './lib/compile';
+import { listFiles } from './lib/listFiles';
 
 export function PreviewComponentScreen() {
     const { component, i } = useLocalSearchParams<{ component: string; i: string }>();
